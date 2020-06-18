@@ -12,7 +12,6 @@ public class DebugExample {
             sumAndDisplay(firstNumber, secondNumber);
         }
     }
-
     private static void sumAndDisplay(int a, int b) {
         int result = a + b;
 
@@ -25,4 +24,7 @@ public class DebugExample {
         System.out.println(result);
     }
 }
+
+
+
 
