@@ -19,9 +19,19 @@ public class User {
 
         User[] users = {anna, betty, carl, david, eva, frankie};
 
-        int result = 0;
+        int sum = 0;
         for (int i = 0; i < users.length; i++) {
-            result = result + users[i].age;
+            sum = sum + users[i].age;
+        }
+
+        int avg = sum/ users.length;
+
+
+        for (int i = 0; i < users.length; i++) {
+            System.out.println(avg);
+            if (users[i].age<avg) {
+                System.out.println(users[i].name);
+            }
         }
     }
 }
